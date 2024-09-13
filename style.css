@@ -1,0 +1,68 @@
+
+* {
+font-family: "Inter", sans-serif;
+transition: all 0.3s ease;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background-color: #000000;
+}
+.titulo{
+color: #5995ED;
+justify-content: center;
+
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2e2c2c67;
+    border-radius: 10px;
+    border: 2px solid #b0b0b0;
+    width: 30vw;
+    height: 65vh;
+}
+
+.main-container > h2 {
+    font-size: 2rem;
+    margin: 30px 20px;
+    color: #5995ED;
+}
+
+.content {
+    width: 70%;
+    height: 100px;
+}
+
+.content:hover > fieldset {
+    border-color: #86E9CB;
+}
+
+.content:hover > fieldset > legend {
+    color: #6adab8;
+}
+
+fieldset{
+    border-radius: 6px;
+    border-color: #5995ED;
+    font-weight: 600;
+    color: #5995ED;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 2px;
+    color: #ffffff;
+}
+
+#timestamp {
+    font-size: 1rem;
+}
