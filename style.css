@@ -2,6 +2,7 @@
 * {
 font-family: "Bebas Neue", system-ui;
 transition: all 0.3s ease;
+color: white;
 }
 
 body {
@@ -33,7 +34,7 @@ justify-content: center;
 .main-container > h2 {
     font-size: 2rem;
     margin: 30px 20px;
-    color: #white;
+    color: white;
 }
 
 .content {
@@ -46,7 +47,7 @@ justify-content: center;
 }
 
 .content:hover > fieldset > legend {
-    color: #white;
+    color: white;
 }
 
 fieldset{
