@@ -14,7 +14,7 @@ body {
     background-color: #000000;
 }
 .titulo{
-color: #5995ED;
+color: white;
 justify-content: center;
 
 }
@@ -23,9 +23,9 @@ justify-content: center;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #2e2c2c67;
+    background-color: white;
     border-radius: 10px;
-    border: 2px solid #b0b0b0;
+    border: 2px solid white;
     width: 30vw;
     height: 65vh;
 }
@@ -33,7 +33,7 @@ justify-content: center;
 .main-container > h2 {
     font-size: 2rem;
     margin: 30px 20px;
-    color: #5995ED;
+    color: #white;
 }
 
 .content {
@@ -42,18 +42,18 @@ justify-content: center;
 }
 
 .content:hover > fieldset {
-    border-color: #86E9CB;
+    border-color: white;
 }
 
 .content:hover > fieldset > legend {
-    color: #6adab8;
+    color: #white;
 }
 
 fieldset{
     border-radius: 6px;
-    border-color: #5995ED;
+    border-color: white;
     font-weight: 600;
-    color: #5995ED;
+    color: white;
 }
 
 p {
