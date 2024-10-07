@@ -2,7 +2,6 @@
 * {
 font-family: "Bebas Neue", system-ui;
 transition: all 0.3s ease;
-color: white;
 }
 
 body {
@@ -24,7 +23,7 @@ justify-content: center;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
     border: 2px solid white;
     width: 30vw;
