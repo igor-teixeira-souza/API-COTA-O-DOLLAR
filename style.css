@@ -33,7 +33,7 @@ justify-content: center;
 .main-container > h2 {
     font-size: 2rem;
     margin: 30px 20px;
-    color: white;
+    color: black;
 }
 
 .content {
@@ -46,14 +46,14 @@ justify-content: center;
 }
 
 .content:hover > fieldset > legend {
-    color: white;
+    color: black;
 }
 
 fieldset{
     border-radius: 6px;
     border-color: white;
     font-weight: 600;
-    color: white;
+    color: black;
 }
 
 p {
